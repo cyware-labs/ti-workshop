@@ -1,0 +1,28 @@
+https://test.taxiistand.com/read-only/services/discovery
+
+
+Read-Only Services
+Service	URL
+Discovery	https://test.taxiistand.com/read-only/services/discovery
+Collection Management	https://test.taxiistand.com/read-only/services/collection-management
+Polling	https://test.taxiistand.com/read-only/services/poll
+Read Write Services
+Service	URL
+Discovery	https://test.taxiistand.com/read-write/services/discovery
+Collection Management	https://test.taxiistand.com/read-write/services/collection-management
+Polling	https://test.taxiistand.com/read-write/services/poll
+Inbox - All Data	https://test.taxiistand.com/read-write/services/inbox-all
+Inbox - STIX Only	https://test.taxiistand.com/read-write/services/inbox-stix
+Inbox - CAP Only	https://test.taxiistand.com/read-write/services/inbox-cap
+Inbox - XML Encrypted Only	https://test.taxiistand.com/read-write/services/inbox-xmlenc
+Inbox - S/MIME Only	https://test.taxiistand.com/read-write/services/inbox-pkcs7
+Authenticated Read-Write Services
+Service	URL
+Discovery	https://test.taxiistand.com/read-write-auth/services/discovery
+Collection Management	https://test.taxiistand.com/read-write-auth/services/collection-management
+Polling	https://test.taxiistand.com/read-write-auth/services/poll
+Inbox - All Data	https://test.taxiistand.com/read-write-auth/services/inbox-all
+Inbox - STIX Only	https://test.taxiistand.com/read-write-auth/services/inbox-stix
+Inbox - CAP Only	https://test.taxiistand.com/read-write-auth/services/inbox-cap
+Inbox - XML Encrypted Only	https://test.taxiistand.com/read-write-auth/services/inbox-xmlenc
+Inbox - S/MIME Only	https://test.taxiistand.com/read-write-auth/services/inbox-pkcs7

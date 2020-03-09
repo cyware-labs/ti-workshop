@@ -1,0 +1,37 @@
+taxii-discovery \
+              --host test.taxiistand.com \
+              --path /read-only/services/discovery \
+              --https
+
+taxii-discovery \
+              --host open.taxiistand.com \
+              --path /services/discovery \
+              --https
+
+taxii-discovery \
+              --path https://test.taxiistand.com/read-only/services/discovery \
+              --https
+
+taxii-collections \
+             --path https://open.taxiistand.com/services/collection-management
+
+taxii-collections \
+             --path https://cti-taxii.mitre.org/stix/collections
+
+taxii-poll \
+               --host test.taxiistand.com \
+               --https --collection single-binding-slow \
+               --discovery /read-only/services/discovery
+
+taxii-poll \
+              --host open.taxiistand.com \
+              --https --collection vxvault \
+              --discovery /services/discovery
+
+
+Reference: https://cabby.readthedocs.io/en/stable/user.html
+           https://hub.docker.com/r/eclecticiq/cabby/
+           https://test.taxiistand.com/
+           https://www.eclecticiq.com/open-source/cabby
+
+https://open.taxiistand.com/services/discovery
